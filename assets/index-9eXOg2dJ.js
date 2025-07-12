@@ -89,7 +89,7 @@ align-items: end;
             transform: scale(1.06);
             transition: all ease 0.5s;
     }
-`,jv=({currentDice:c,rollMyDice:r})=>w.jsx(w.Fragment,{children:w.jsxs(Gv,{children:[w.jsx("div",{className:"dice",onClick:r,children:w.jsx("img",{src:`/DiceGame/images/Dice/dice_${c}.png`,alt:"Dice 1"})}),w.jsx("p",{children:"Click on the Dice to Roll"})]})}),Gv=Gl.div`
+`,jv=({currentDice:c,rollMyDice:r})=>w.jsx(w.Fragment,{children:w.jsxs(Gv,{children:[w.jsx("div",{className:"dice",onClick:r,children:w.jsx("img",{src:`./images/Dice/dice_${c}.png`,alt:"Dice 1"})}),w.jsx("p",{children:"Click on the Dice to Roll"})]})}),Gv=Gl.div`
 
 img{
     transition: all ease 0.5s;
@@ -181,7 +181,7 @@ margin: 0 auto !important;
         align-items: center;
         gap: 10px;
     }
-`,Jv=c=>{const{toggle:r}=c;return w.jsx(w.Fragment,{children:w.jsxs($v,{children:[w.jsx("div",{className:"imgClass",children:w.jsx("img",{src:"/images/startdices.png"})}),w.jsxs("div",{className:"content",children:[w.jsx("h1",{children:"dice game"}),w.jsx(or,{onClick:r,children:"Play Now"})]})]})})},$v=Gl.div`
+`,Jv=c=>{const{toggle:r}=c;return w.jsx(w.Fragment,{children:w.jsxs($v,{children:[w.jsx("div",{className:"imgClass",children:w.jsx("img",{src:"./images/startdices.png"})}),w.jsxs("div",{className:"content",children:[w.jsx("h1",{children:"dice game"}),w.jsx(or,{onClick:r,children:"Play Now"})]})]})})},$v=Gl.div`
     max-width: 1182px;
     display: flex;
     height: 100vh;
