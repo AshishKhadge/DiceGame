@@ -181,7 +181,7 @@ margin: 0 auto !important;
         align-items: center;
         gap: 10px;
     }
-`,Jv=c=>{const{toggle:r}=c;return w.jsx(w.Fragment,{children:w.jsxs($v,{children:[w.jsx("div",{className:"imgClass",children:w.jsx("img",{src:"/images/dices.png"})}),w.jsxs("div",{className:"content",children:[w.jsx("h1",{children:"dice game"}),w.jsx(or,{onClick:r,children:"Play Now"})]})]})})},$v=Gl.div`
+`,Jv=c=>{const{toggle:r}=c;return w.jsx(w.Fragment,{children:w.jsxs($v,{children:[w.jsx("div",{className:"imgClass",children:w.jsx("img",{src:"/images/startdices.png"})}),w.jsxs("div",{className:"content",children:[w.jsx("h1",{children:"dice game"}),w.jsx(or,{onClick:r,children:"Play Now"})]})]})})},$v=Gl.div`
     max-width: 1182px;
     display: flex;
     height: 100vh;
