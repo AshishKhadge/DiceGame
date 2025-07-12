@@ -6,7 +6,7 @@ import { useState } from "react"
 import { Button, OutlineBtn } from "../Button/Button"
 import Rules from "./Rules"
 
-const MainGame = () => {
+const MainGame = ({onBack}) => {
 
     const [score, setScore] = useState(0)
     const [selectedNumber, setSelectedNumber] = useState()
@@ -55,7 +55,7 @@ const MainGame = () => {
         <>
             <MainSection>
                 <div className="topSection">
-                    <TotalScore score={score} />
+                    <TotalScore score={score} onBack={onBack}/>
                     <NumberSelect
                         error={error}
                         setError={setError}

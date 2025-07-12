@@ -13,7 +13,7 @@ const App = () => {
   return (
     <>
       { 
-        gameStarted ? <MainGame/> : <StartGame toggle={toggleGamePlay}/>
+        gameStarted ? <MainGame onBack={toggleGamePlay}/> : <StartGame toggle={toggleGamePlay}/>
       }
       
     </>
